@@ -22,17 +22,17 @@ Object.getOwnPropertyNames(NodeList.prototype)
 Object.getOwnPropertyNames(HTMLCollection.prototype)
 Object.getOwnPropertyNames(Document.prototype)
 
-// Liste os construtores dos dados abaixo
+// Liste os construtores dos dados abaixo (.constructor.name)
 
 const li = document.querySelector("li");
 
-li;
-li.click;
-li.innerText;
-li.value;
-li.hidden;
-li.offsetLeft;
-li.click();
+li; // HTMLLIElement
+li.click; // Function
+li.innerText; // String
+li.value; // Number
+li.hidden; // Boolean
+li.offsetLeft; // Number
+li.click(); // Undefined
 
 // Qual o construtor do dado abaixo:
-li.hidden.constructor.name;
+li.hidden.constructor.name; // String
