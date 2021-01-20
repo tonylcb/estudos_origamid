@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './Formulários/09_Desafio-Formulário/App';
 
 ReactDOM.render(
   <React.StrictMode>
